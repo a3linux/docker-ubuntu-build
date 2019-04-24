@@ -11,12 +11,11 @@ RUN apt-get update && apt-get install -y \
     git \
     libc6-dev \
     libgflags-dev \
-    libsnappy1 \
-    libsnappy-dev \
     libssl-dev \
     libtool \
     libbz2-dev \
 	lintian \
+    libsnappy-dev \
 	make \
     mercurial \
     pkg-config \
