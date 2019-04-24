@@ -1,6 +1,6 @@
 FROM a3linux/docker-ubuntu-base:latest
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get update --fix-missing && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     autoconf \
     build-essential \
     ca-certificates \
